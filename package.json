@@ -16,7 +16,7 @@
         "build": "tsc && tsc-alias"
     },
     "dependencies": {
-        "@wxn0brp/db-core": ">=0.1.2"
+        "@wxn0brp/db-core": ">=0.2.0"
     },
     "devDependencies": {
         "@types/node": "^24.1.0",
