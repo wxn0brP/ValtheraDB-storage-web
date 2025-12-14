@@ -1,5 +1,5 @@
 {
-    "cmd": "yarn build",
+    "cmd": "tsc && tsc-alias",
     "watch": [
         "src"
     ],
