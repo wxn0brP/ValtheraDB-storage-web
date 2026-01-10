@@ -1,6 +1,6 @@
 import { forgeValthera, ValtheraClass } from "@wxn0brp/db-core";
 import { WebStorageActions } from "./storage";
-import CollectionManager from "@wxn0brp/db-core/helpers/CollectionManager";
+import { CollectionManager } from "@wxn0brp/db-core/helpers/collectionManager";
 import Data from "@wxn0brp/db-core/types/data";
 
 export * from "./storage";
