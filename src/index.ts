@@ -1,12 +1,12 @@
 import { forgeValthera, ValtheraClass } from "@wxn0brp/db-core";
 import { WebStorageActions } from "./storage";
-import { CollectionManager } from "@wxn0brp/db-core/helpers/collectionManager";
-import Data from "@wxn0brp/db-core/types/data";
+import { Data } from "@wxn0brp/db-core/types/data";
+import { Collection } from "@wxn0brp/db-core/helpers/collection";
 
 export * from "./storage";
 
 export function createWebStorageValthera<T extends Record<string, Data[]>>
-    (name: string, data?: T, storage: Storage = localStorage): ValtheraClass & { [K in keyof T]: CollectionManager<T[K][number]> } {
+    (name: string, data?: T, storage: Storage = localStorage): ValtheraClass & { [K in keyof T]: Collection<T[K][number]> } {
 
     const db = new ValtheraClass({
         dbAction: new WebStorageActions(name, storage)
