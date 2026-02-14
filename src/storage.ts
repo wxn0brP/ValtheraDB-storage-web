@@ -40,4 +40,9 @@ export class WebStorageActions extends CustomActionsBase {
         }
         return keys;
     }
+
+    async removeCollection(config: VQuery): Promise<boolean> {
+        this.storage.removeItem(this._getPath(config.collection));
+        return true;
+    }
 }
