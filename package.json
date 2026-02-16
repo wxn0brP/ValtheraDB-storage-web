@@ -21,10 +21,10 @@
         "build": "tsc && tsc-alias"
     },
     "peerDependencies": {
-        "@wxn0brp/db-core": "~0.7.0"
+        "@wxn0brp/db-core": "~0.8.0"
     },
     "devDependencies": {
-        "@wxn0brp/db-core": "~0.7.0",
+        "@wxn0brp/db-core": "~0.8.0",
         "tsc-alias": "*",
         "typescript": "*"
     },
