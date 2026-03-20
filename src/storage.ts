@@ -1,6 +1,5 @@
 import { CustomFileCpu } from "@wxn0brp/db-core";
 import { CustomActionsBase } from "@wxn0brp/db-core/base/custom";
-import { VQuery } from "@wxn0brp/db-core/types/query";
 
 export class WebStorageActions extends CustomActionsBase {
     constructor(public name: string, private storage: Storage = localStorage) {
@@ -21,14 +20,14 @@ export class WebStorageActions extends CustomActionsBase {
         this.storage.setItem(this._getPath(collection), JSON.stringify(data));
     }
 
-    async ensureCollection(config: VQuery): Promise<boolean> {
-        const key = this._getPath(config.collection);
+    async ensureCollection(collection: string): Promise<boolean> {
+        const key = this._getPath(collection);
         if (!this.storage.getItem(key)) this.storage.setItem(key, JSON.stringify([]));
         return true;
     }
 
-    async issetCollection(config: VQuery): Promise<boolean> {
-        return !!this.storage.getItem(this._getPath(config.collection));
+    async issetCollection(collection: string): Promise<boolean> {
+        return !!this.storage.getItem(this._getPath(collection));
     }
 
     async getCollections(): Promise<string[]> {
@@ -41,8 +40,8 @@ export class WebStorageActions extends CustomActionsBase {
         return keys;
     }
 
-    async removeCollection(config: VQuery): Promise<boolean> {
-        this.storage.removeItem(this._getPath(config.collection));
+    async removeCollection(collection: string): Promise<boolean> {
+        this.storage.removeItem(this._getPath(collection));
         return true;
     }
 }
