@@ -25,8 +25,8 @@
     },
     "devDependencies": {
         "@wxn0brp/db-core": "^0.11.0",
-        "tsc-alias": "*",
-        "typescript": "*"
+        "tsc-alias": "^1",
+        "typescript": "^6"
     },
     "files": [
         "dist"
