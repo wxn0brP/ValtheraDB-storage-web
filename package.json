@@ -18,15 +18,17 @@
         "vdb-adapter"
     ],
     "scripts": {
-        "build": "tsc && tsc-alias"
+        "build": "tsc && tsc-alias",
+        "build:smoke": "bun build ./public/smoke.ts --outdir ./public"
     },
     "peerDependencies": {
-        "@wxn0brp/db-core": "^0.11.0"
+        "@wxn0brp/db-core": "^0.11.5"
     },
     "devDependencies": {
-        "@wxn0brp/db-core": "^0.11.0",
+        "@wxn0brp/biome": "*",
+        "@wxn0brp/db-core": "^0.11.5",
         "tsc-alias": "^1",
-        "typescript": "^6"
+        "typescript": "^7"
     },
     "files": [
         "dist"

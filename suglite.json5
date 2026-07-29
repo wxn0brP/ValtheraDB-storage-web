@@ -1,10 +1,13 @@
 {
-    cmd: "tsc && tsc-alias",
+    cmd: "tsc --noEmit && bun run build:smoke",
     watch: [
         "src",
+        "public/smoke.ts",
     ],
-    restart_cmd: "clear",
-    events: {
-        rs: "clear",
-    },
+    server: 18483,
+    server_map: {
+        dir: {
+            "/": "public"
+        }
+    }
 }

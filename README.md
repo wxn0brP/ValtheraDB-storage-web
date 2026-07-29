@@ -8,7 +8,7 @@ This plugin provides web storage (localStorage/sessionStorage) operations for Va
 npm install @wxn0brp/db-storage-web
 ```
 
-## Usage
+## LocalStorage
 
 ```typescript
 import { createWebStorageValthera } from "@wxn0brp/db-storage-web";
@@ -21,3 +21,15 @@ const db = createWebStorageValthera("my-db", {
   ]
 });
 ```
+
+## IndexedDB
+
+```typescript
+import { createIndexedDBValthera } from "@wxn0brp/db-storage-web";
+
+const db = createIndexedDBValthera("my-db");
+```
+
+## License
+
+MIT
