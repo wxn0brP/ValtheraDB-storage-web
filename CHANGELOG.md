@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.110.1](https://github.com/wxn0brP/ValtheraDB-storage-web/compare/v0.110.0...v0.110.1) (2026-08-03)
+
+
+### Features
+
+* indexed db support & biome ([4e2b6ae](https://github.com/wxn0brP/ValtheraDB-storage-web/commit/4e2b6aeb66926a7055305c0d7b5651ab3937e36f))
+
 ## [0.110.0](https://github.com/wxn0brP/ValtheraDB-storage-web/compare/v0.100.0...v0.110.0) (2026-05-17)
 
 ## [0.100.0](https://github.com/wxn0brP/ValtheraDB-storage-web/compare/v0.90.0...v0.100.0) (2026-03-20)
