@@ -22,11 +22,11 @@
         "build:smoke": "bun build ./public/smoke.ts --outdir ./public"
     },
     "peerDependencies": {
-        "@wxn0brp/db-core": "^0.11.5"
+        "@wxn0brp/db-core": "^0.12.0"
     },
     "devDependencies": {
         "@wxn0brp/biome": "*",
-        "@wxn0brp/db-core": "^0.11.5",
+        "@wxn0brp/db-core": "^0.12.0",
         "tsc-alias": "^1",
         "typescript": "^7"
     },

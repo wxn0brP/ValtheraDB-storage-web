@@ -1,7 +1,7 @@
-import { forgeValthera, ValtheraClass } from "@wxn0brp/db-core";
+import { forgeTypedValthera, ValtheraClass } from "@wxn0brp/db-core";
 import { IndexedDBActions } from "../src/indexed";
 
-const results = document.querySelector("#results");
+const results = document.querySelector("#results")!;
 
 function log(msg: string, pass: boolean) {
 	const div = document.createElement("div");
@@ -25,7 +25,7 @@ async function run() {
 
 	const actions = new IndexedDBActions("smoke_test");
 
-	globalThis.db = forgeValthera(new ValtheraClass({ adapter: actions as any }));
+	(globalThis as any).db = forgeTypedValthera(new ValtheraClass({ adapter: actions }));
 
 	await test("init", async () => {
 		await actions.init();
