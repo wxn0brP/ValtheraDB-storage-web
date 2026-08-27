@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.120.1](https://github.com/wxn0brP/ValtheraDB-storage-web/compare/v0.120.0...v0.120.1) (2026-08-27)
+
+
+### Features
+
+* version support ([50a311b](https://github.com/wxn0brP/ValtheraDB-storage-web/commit/50a311b31e48267fff4644646fdc940e0537f065))
+
 ## [0.120.0](https://github.com/wxn0brP/ValtheraDB-storage-web/compare/v0.110.1...v0.120.0) (2026-08-20)
 
 
