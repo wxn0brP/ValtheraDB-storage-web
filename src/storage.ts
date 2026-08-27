@@ -1,7 +1,10 @@
 import { CustomFileCpu } from "@wxn0brp/db-core";
 import { CustomActionsBase } from "@wxn0brp/db-core/base/custom";
+import { version } from "./version";
 
 export class WebStorageActions extends CustomActionsBase {
+	version = version;
+
 	constructor(
 		public name: string,
 		public _storage: Storage = localStorage,

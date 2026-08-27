@@ -3,11 +3,13 @@ import { addId } from "@wxn0brp/db-core/helpers/addId";
 import { DataInternal } from "@wxn0brp/db-core/types/data";
 import { VQueryT } from "@wxn0brp/db-core/types/query";
 import { findObj, matchObj, updateObj } from "@wxn0brp/db-core/utils/process";
+import { version } from "./version";
 
 export class IndexedDBActions extends ActionsBase {
 	db: IDBDatabase = null;
 	_version = 1;
 	_inited = false;
+	version = version;
 
 	constructor(public name: string) {
 		super();
