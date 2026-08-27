@@ -1,0 +1,30 @@
+import { ActionsBase } from "@wxn0brp/db-core/base/actions";
+import { DataInternal } from "@wxn0brp/db-core/types/data";
+import { VQueryT } from "@wxn0brp/db-core/types/query";
+export declare class IndexedDBActions extends ActionsBase {
+    name: string;
+    db: IDBDatabase;
+    _version: number;
+    _inited: boolean;
+    version: string;
+    constructor(name: string);
+    _getDBName(): string;
+    init(): Promise<void>;
+    _loadVersion(): Promise<void>;
+    _saveVersion(): Promise<void>;
+    close(): Promise<void>;
+    _changeSchema(upgradeFn: (db: IDBDatabase) => void): Promise<void>;
+    _getStore(collection: string, mode: IDBTransactionMode): Promise<IDBObjectStore>;
+    _getAllEntries(collection: string): Promise<DataInternal[]>;
+    ensureCollection(collection: string): Promise<boolean>;
+    issetCollection(collection: string): Promise<boolean>;
+    getCollections(): Promise<string[]>;
+    removeCollection(collection: string): Promise<boolean>;
+    add(query: VQueryT.Add): Promise<DataInternal>;
+    find(query: VQueryT.Find): Promise<DataInternal[]>;
+    findOne(query: VQueryT.FindOne): Promise<DataInternal | null>;
+    update(query: VQueryT.Update): Promise<DataInternal[]>;
+    updateOne(query: VQueryT.Update): Promise<DataInternal | null>;
+    remove(query: VQueryT.Remove): Promise<DataInternal[]>;
+    removeOne(query: VQueryT.Remove): Promise<DataInternal | null>;
+}
