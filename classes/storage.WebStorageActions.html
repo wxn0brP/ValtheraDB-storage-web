@@ -11,10 +11,10 @@
 <li><a href="../modules/storage.html">storage</a></li>
 <li><a href="" aria-current="page">WebStorageActions</a></li></ul>
 <h1>Class WebStorageActions</h1></div>
-<section class="tsd-panel tsd-hierarchy" data-refl="122">
+<section class="tsd-panel tsd-hierarchy" data-refl="123">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li class="tsd-hierarchy-item"><span class="tsd-signature-type">CustomActionsBase</span>
+<li class="tsd-hierarchy-item"><span class="tsd-signature-type">CustomAdapterBase</span>
 <ul class="tsd-hierarchy">
 <li class="tsd-hierarchy-item"><span class="tsd-hierarchy-target">WebStorageActions</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
@@ -82,7 +82,7 @@
 <li><span><span class="tsd-kind-parameter">name</span>: <span class="tsd-signature-type">string</span></span></li>
 <li><span><span class="tsd-kind-parameter">_storage</span>: <span class="tsd-signature-type">Storage</span><span class="tsd-signature-symbol"> = localStorage</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <a href="" class="tsd-signature-type tsd-kind-class">WebStorageActions</a></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.constructor</p>
+<p>Overrides CustomAdapterBase.constructor</p>
 <ul>
 <li>Defined in src/storage.ts:17</li></ul></aside></div></li></ul></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Properties"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
@@ -91,9 +91,9 @@
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="_inited"><span>_<wbr/>inited</span><a href="#_inited" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">_inited</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase._inited</p>
+<p>Inherited from CustomAdapterBase._inited</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:8</li></ul></aside></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:8</li></ul></aside></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="_storage"><span>_<wbr/>storage</span><a href="#_storage" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">_storage</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Storage</span><span class="tsd-signature-symbol"> = localStorage</span></div><aside class="tsd-sources">
@@ -102,21 +102,21 @@
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="adapteropts"><span>adapter<wbr/>Opts</span><a href="#adapteropts" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">adapterOpts</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AdapterOpts</span></div><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.adapterOpts</p>
+<p>Inherited from CustomAdapterBase.adapterOpts</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:9</li></ul></aside></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:9</li></ul></aside></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="capabilities"><span>capabilities</span><a href="#capabilities" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">capabilities</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{</span> <span class="tsd-kind-property">indexes</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span> <span class="tsd-kind-property">persistent</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span> <span class="tsd-kind-property">transactions</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span> <span class="tsd-signature-symbol">}</span><span class="tsd-signature-symbol"> = ...</span></div><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.capabilities</p>
+<p>Overrides CustomAdapterBase.capabilities</p>
 <ul>
 <li>Defined in src/storage.ts:11</li></ul></aside></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="filecpu"><span>file<wbr/>Cpu</span><a href="#filecpu" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">fileCpu</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CustomFileCpu</span></div><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.fileCpu</p>
+<p>Inherited from CustomAdapterBase.fileCpu</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:6</li></ul></aside></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:6</li></ul></aside></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="name"><span>name</span><a href="#name" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">name</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div><aside class="tsd-sources">
@@ -125,13 +125,13 @@
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="smartexecutor"><span>smart<wbr/>Executor</span><a href="#smartexecutor" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">smartExecutor</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.smartExecutor</p>
+<p>Inherited from CustomAdapterBase.smartExecutor</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:10</li></ul></aside></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:10</li></ul></aside></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="version"><span>version</span><a href="#version" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">version</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = version</span></div><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.version</p>
+<p>Overrides CustomAdapterBase.version</p>
 <ul>
 <li>Defined in src/storage.ts:10</li></ul></aside></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
@@ -181,7 +181,7 @@
 <h3 class="tsd-anchor-link" id="add"><span>add</span><a href="#add" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
 <li class="tsd-is-inherited tsd-is-external">
-<div class="tsd-signature tsd-anchor-link" id="add-1"><span class="tsd-kind-call-signature">add</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">query</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Add</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Arg</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#add-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
+<div class="tsd-signature tsd-anchor-link" id="add-1"><span class="tsd-kind-call-signature">add</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">query</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Add</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LooseArg</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><a href="#add-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Add a new entry to the specified database.</p>
 </div>
@@ -189,24 +189,25 @@
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Add</span></span></li></ul></div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Arg</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.add</p>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LooseArg</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
+<p>Inherited from CustomAdapterBase.add</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:10</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:10</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="begintransaction"><span>begin<wbr/>Transaction</span><a href="#begintransaction" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
 <li class="tsd-is-inherited tsd-is-external">
-<div class="tsd-signature tsd-anchor-link" id="begintransaction-1"><span class="tsd-kind-call-signature">beginTransaction</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TransactionHandle</span><span class="tsd-signature-symbol">&gt;</span><a href="#begintransaction-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
+<div class="tsd-signature tsd-anchor-link" id="begintransaction-1"><span class="tsd-kind-call-signature">beginTransaction</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">id</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">collections</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TransactionHandle</span><span class="tsd-signature-symbol">&gt;</span><a href="#begintransaction-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
 <div class="tsd-parameters">
 <h4 class="tsd-parameters-title">Parameters</h4>
 <ul class="tsd-parameter-list">
-<li><span><span class="tsd-kind-parameter">id</span>: <span class="tsd-signature-type">string</span></span></li></ul></div>
+<li><span><span class="tsd-kind-parameter">id</span>: <span class="tsd-signature-type">string</span></span></li>
+<li><span><span class="tsd-kind-parameter">collections</span>: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TransactionHandle</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.beginTransaction</p>
+<p>Inherited from CustomAdapterBase.beginTransaction</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:26</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:26</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="bulkadd"><span>bulk<wbr/>Add</span><a href="#bulkadd" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -218,7 +219,7 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">BulkAdd</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.bulkAdd</p>
+<p>Overrides CustomAdapterBase.bulkAdd</p>
 <ul>
 <li>Defined in src/storage.ts:67</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -232,9 +233,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.close</p>
+<p>Inherited from CustomAdapterBase.close</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:14</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:14</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="committransaction"><span>commit<wbr/>Transaction</span><a href="#committransaction" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -246,9 +247,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">handle</span>: <span class="tsd-signature-type">TransactionHandle</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.commitTransaction</p>
+<p>Inherited from CustomAdapterBase.commitTransaction</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:27</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:27</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="count"><span>count</span><a href="#count" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -260,7 +261,7 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">config</span>: <span class="tsd-signature-type">Count</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.count</p>
+<p>Overrides CustomAdapterBase.count</p>
 <ul>
 <li>Defined in src/storage.ts:78</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -274,9 +275,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">config</span>: <span class="tsd-signature-type">CreateIndex</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.createIndex</p>
+<p>Inherited from CustomAdapterBase.createIndex</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:29</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:29</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="ensurecollection"><span>ensure<wbr/>Collection</span><a href="#ensurecollection" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -288,7 +289,7 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">collection</span>: <span class="tsd-signature-type">string</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.ensureCollection</p>
+<p>Overrides CustomAdapterBase.ensureCollection</p>
 <ul>
 <li>Defined in src/storage.ts:41</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -304,9 +305,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Find</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.find</p>
+<p>Inherited from CustomAdapterBase.find</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:14</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:14</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="findone"><span>find<wbr/>One</span><a href="#findone" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -320,9 +321,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">FindOne</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Data</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.findOne</p>
+<p>Inherited from CustomAdapterBase.findOne</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:18</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:18</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="getcollections"><span>get<wbr/>Collections</span><a href="#getcollections" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -330,7 +331,7 @@
 <div class="tsd-signature tsd-anchor-link" id="getcollections-1"><span class="tsd-kind-call-signature">getCollections</span><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><a href="#getcollections-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.getCollections</p>
+<p>Overrides CustomAdapterBase.getCollections</p>
 <ul>
 <li>Defined in src/storage.ts:52</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -344,9 +345,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-signature-symbol">...</span><span class="tsd-kind-parameter">args</span>: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.init</p>
+<p>Inherited from CustomAdapterBase.init</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:13</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:13</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="issetcollection"><span>isset<wbr/>Collection</span><a href="#issetcollection" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -358,7 +359,7 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">collection</span>: <span class="tsd-signature-type">string</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.issetCollection</p>
+<p>Overrides CustomAdapterBase.issetCollection</p>
 <ul>
 <li>Defined in src/storage.ts:48</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -374,9 +375,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Remove</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.remove</p>
+<p>Inherited from CustomAdapterBase.remove</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:30</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:30</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="removecollection"><span>remove<wbr/>Collection</span><a href="#removecollection" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -388,7 +389,7 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">collection</span>: <span class="tsd-signature-type">string</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Overrides CustomActionsBase.removeCollection</p>
+<p>Overrides CustomAdapterBase.removeCollection</p>
 <ul>
 <li>Defined in src/storage.ts:62</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
@@ -402,9 +403,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">config</span>: <span class="tsd-signature-type">RemoveIndex</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.removeIndex</p>
+<p>Inherited from CustomAdapterBase.removeIndex</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:30</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:30</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="removeone"><span>remove<wbr/>One</span><a href="#removeone" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -418,9 +419,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Remove</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.removeOne</p>
+<p>Inherited from CustomAdapterBase.removeOne</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:34</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:34</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="rollbacktransaction"><span>rollback<wbr/>Transaction</span><a href="#rollbacktransaction" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -432,9 +433,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">handle</span>: <span class="tsd-signature-type">TransactionHandle</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.rollbackTransaction</p>
+<p>Inherited from CustomAdapterBase.rollbackTransaction</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:28</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:28</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="toggleone"><span>toggle<wbr/>One</span><a href="#toggleone" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -446,9 +447,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">config</span>: <span class="tsd-signature-type">ToggleOne</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ToggleOneResult</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.toggleOne</p>
+<p>Inherited from CustomAdapterBase.toggleOne</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:32</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:32</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="update"><span>update</span><a href="#update" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -462,9 +463,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Update</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.update</p>
+<p>Inherited from CustomAdapterBase.update</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:22</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:22</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="updateone"><span>update<wbr/>One</span><a href="#updateone" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -478,9 +479,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">query</span>: <span class="tsd-signature-type">Update</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.updateOne</p>
+<p>Inherited from CustomAdapterBase.updateOne</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/custom.d.ts:26</li></ul></aside></div></li></ul></section>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/customAdapter.d.ts:26</li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited tsd-is-external">
 <h3 class="tsd-anchor-link" id="updateoneoradd"><span>update<wbr/>One<wbr/>Or<wbr/>Add</span><a href="#updateoneoradd" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited tsd-is-external">
@@ -492,9 +493,9 @@
 <ul class="tsd-parameter-list">
 <li><span><span class="tsd-kind-parameter">config</span>: <span class="tsd-signature-type">UpdateOneOrAdd</span></span></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">UpdateOneOrAddResult</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">DataInternal</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
-<p>Inherited from CustomActionsBase.updateOneOrAdd</p>
+<p>Inherited from CustomAdapterBase.updateOneOrAdd</p>
 <ul>
-<li>Defined in node_modules/@wxn0brp/db-core/dist/base/actions.d.ts:31</li></ul></aside></div></li></ul></section></section></details></div>
+<li>Defined in node_modules/@wxn0brp/db-core/dist/base/adapter.d.ts:31</li></ul></aside></div></li></ul></section></section></details></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
